@@ -46,29 +46,13 @@
 
 
 const config = [
-    ['and', '符合以下所有条件', 'must match all of the following conditions'],
-    ['or', '符合以下任一条件', 'just match any of the following conditions'],
-    ['savePlane', '保存当前方案', 'save current plan'],
-    ['inputPlanName', '请输入方案名称', 'please input plan name'],
-    ['addCondition', '添加条件', 'add condition'],
-    ['FilterOperator.Contains', '包含', 'Contains'],
-    ['FilterOperator.DoesNotContain', '不包含', 'DoesNotContain'],
-    ['FilterOperator.IsEmpty', '为空', 'IsEmpty'],
-    ['FilterOperator.IsNotEmpty', '不为空', 'IsNotEmpty'],
-    ['FilterOperator.Is', '等于', 'Is'],
-    ['FilterOperator.IsNot', '不等于', 'IsNot'],
-    ['FilterOperator.IsGreater', '大于', 'IsGreater'],
-    ['FilterOperator.IsGreaterEqual', '大于等于', 'IsGreaterEqual'],
-    ['FilterOperator.IsLess', '小于', 'IsLess'],
-    ['FilterOperator.IsLessEqual', '小于等于', 'IsLessEqual'],
-    ['deletePlane', '删除当前方案', 'delete current plan'],
-    ['applyPlane', '应用当前方案', 'apply current plan'],
-    ['applyFail', '应用失败', 'apply fail'],
-    ['deletePlaneConfirm', '确定删除当前方案？', 'confirm delete current plan?'],
-    ['updateFail', '更新失败', 'update fail'],
-    ['saveSuccess', '保存成功', 'save success'],
-    ['setFilterCondition','设置筛选条件','set filter condition'],
-    ['searchField','搜索字段','search field'],
+    ['请点击【打开大转盘】按钮开始使用', '请点击【打开大转盘】按钮开始使用', 'please tap the 【open the big turntable】 button to start using'],
+    ['使用转盘时不要关闭此页面', '使用转盘时不要关闭此页面', 'do not close this page while using the turntable'],
+    ['转盘必须从当前页面打开', '转盘必须从当前页面打开', 'the turntable must be opened from the current page'],
+    ['不然无法保存转盘', '不然无法保存转盘', 'otherwise the turntable cannot be saved'],
+    ['加入"转盘插件"讨论群', '加入"转盘插件"讨论群', 'join the "turntable plugin" discussion group'],
+    ['打开大转盘', '打开大转盘', 'open the big turntable'],
+    [' 飞书客户端暂不支持保存转盘信息，请在浏览器中使用此插件。',' 飞书客户端暂不支持保存转盘信息，请在浏览器中使用此插件。','lark client does not support saving turntable information, please use this plug-in in the browser.'],
 ]
 
 
