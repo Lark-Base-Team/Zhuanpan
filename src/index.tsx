@@ -12,5 +12,18 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 )
 
 function LoadApp() {
-    return <App />
+    const [load, setLoad] = useState(false);
+    useEffect(() => {
+        bitable.bridge.getLanguage().then((lang) => {
+            initI18n(lang as any);
+            setLoad(true);
+        }).catch((e) => {
+            console.log('getLanguage error', e);
+        });
+    }, [])
+
+    if (load) {
+        return <App />
+    }
+    return <Spin />
 }
